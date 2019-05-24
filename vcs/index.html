@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VCS</title>
+    <link rel="stylesheet" href="css/vcs.css">
+</head>
+
+<body>
+    <h1>Spencer B -- Version Control System -- May 2019</h1>
+
+    <p>A version control system or VCS, also know as revision control or source control system, is a software utility
+        that tracks and manages changes to a filesystem.
+        A VCS also offers collaborative utilities to share and integrate these filesystem changes to other VCS users.
+        When operating at the filesystem level, a VCS will track
+        the addition, deletion, and modification actions applied to files and directories. A repository is a VCS term
+        which describes when VCS is tracking a filesystem. In the
+        scope of individual source code files, a VCS will track additions, deletions, modifications of the lines of text
+        within that file. Popular software industry VCS options
+        include Git, Mercurial, SVN and preforce.</p>
+
+    <p><a href="https://bitbucket.org/product/version-control-software">This statement Came from bitbucket.</a></p>
+
+    <h3>Step by step</h3>
+
+    <h3>First make an account on git, then verify, then on left hand side click Make Repository, name and add
+        description, Click INITIALIZE then submit, lastly add files.</h3>
+
+
+    <p>compsci@compsci-VBox:~$ sudo apt update</p>
+    <p>compsci@compsci-VBox:~$ sudo apt install git</p>
+    <p>compsci@compsci-VBox~:$ git --version</p>
+    <p></p>
+    <p>Use this for ... compsci@compsci-VBox:~$ git config --global user.name
+        "SpencerBarnett"</p>
+    <p>compsci@compsci-VBox:~$ git config --global user.email "barnettspencer9@gmail.com"</p>
+    <p>compsci@compsci-VBox:~$ git config --list
+        user.name=SpencerBarnett</p>
+    <p>user.email=barnettspencer9@gmail.com</p>
+    <p>compsci@compsci-VBox:/var/www/html/spencerb (copy)$ git init</p>
+    <p>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/spencerb/projects/vcs</b></font>$ git config --help
+        </pre>
+    </p>
+    <p>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/spencerb/projects/vcs</b></font>$ git init
+            Initialized empty Git repository in /var/www/html/spencerb/projects/vcs/.git/
+            </pre>
+    </p>
+    <p>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/spencerb/projects/vcs/.git</b></font>$ ll
+        total 40
+        drwxr-xr-x 7 compsci compsci 4096 May 22 13:40 <font color="#729FCF"><b>.</b></font>/
+        drwxrwxr-x 6 compsci compsci 4096 May 22 13:40 <font color="#729FCF"><b>..</b></font>/
+        drwxr-xr-x 2 compsci compsci 4096 May 22 13:40 <font color="#729FCF"><b>branches</b></font>/
+        -rw-r--r-- 1 compsci compsci   92 May 22 13:40 config
+        -rw-r--r-- 1 compsci compsci   73 May 22 13:40 description
+        -rw-r--r-- 1 compsci compsci   23 May 22 13:40 HEAD
+        drwxr-xr-x 2 compsci compsci 4096 May 22 13:40 <font color="#729FCF"><b>hooks</b></font>/
+        drwxr-xr-x 2 compsci compsci 4096 May 22 13:40 <font color="#729FCF"><b>info</b></font>/
+        drwxr-xr-x 4 compsci compsci 4096 May 22 13:40 <font color="#729FCF"><b>objects</b></font>/
+        drwxr-xr-x 4 compsci compsci 4096 May 22 13:40 <font color="#729FCF"><b>refs</b></font>/
+        </pre>
+    </p>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/spencerb/projects/vcs/.git</b></font>$ cd ..
+        <font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/spencerb/projects/vcs</b></font>$ rm -rf .git
+        <font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/spencerb/projects/vcs</b></font>$ ll
+        </pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/spencerb/projects/vcs</b></font>$ git status 
+        </pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/spencerb/projects/vcs</b></font>$ touch .gitignore
+        </pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/spencerb/projects/vcs</b></font>$ gedit .getignore
+        </pre>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/spencerb/projects/vcs</b></font>$ 
+        </pre>
+
+        <h5>24 May</h5>
+        <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/spencerb/projects/vcs</b></font>$ get diff
+        </pre>
+</body>
+
+</html>
